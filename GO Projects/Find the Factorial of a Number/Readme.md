@@ -4,7 +4,7 @@
 This Go program calculates the factorial of a given number using a recursive function. The factorial of a number `n` (denoted as `n!`) is the product of all positive integers from `1` to `n`. It is defined as:
 ##
 $$
-\large n!=n×(n−1)×(n−2)×...×1
+\large n!=n × (n−1) × (n−2) × ... × 1
 $$
 ##
 For example:
@@ -37,20 +37,20 @@ For input `n = 5`, the program calculates:
 
 ##
 $$
-\large 5!=5×4×3×2×1=120
+\large 5! = 5 × 4 × 3 × 2 × 1 = 120
 $$
 ##
 
 
-📝 Code Explanation
-factorial(n int) int:
+## 📝 Code Explanation
+- `factorial(n int) int`:
 
-If n == 0, return 1.
+    - If `n == 0`, return `1`.
 
-Otherwise, return n * factorial(n-1).
+    - Otherwise, return `n * factorial(n-1)`.
 
-Uses recursion to break down the problem into smaller subproblems.
+    - Uses recursion to break down the problem into smaller subproblems.
 
-main():
+- `main()`:
 
-Calls factorial(5) to calculate the factorial of 5 and prints the result.
+    - Calls `factorial(5)` to calculate the factorial of `5` and prints the result.
