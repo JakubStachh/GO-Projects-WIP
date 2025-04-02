@@ -4,7 +4,7 @@
 This Go program defines a function to check whether a given integer is a prime number. A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.
 
 ## 🔍 How It Works
-###The function `isPrime(n int) bool`:
+### The function `isPrime(n int) bool`:
 
 - If `n` is less than or equal to 1, the function returns `false` because prime numbers are greater than 1.
 
