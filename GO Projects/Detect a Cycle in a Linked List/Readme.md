@@ -12,15 +12,15 @@ If there is a cycle, both pointers will eventually meet at the same node. If no 
 ## 🔍 How It Works
 - `hasCycle` function:
 
-- The function takes the head of the linked list as input.
+ - The function takes the head of the linked list as input.
 
-- Two pointers (`slow` and `fast`) are initialized to the head.
+ - Two pointers (`slow` and `fast`) are initialized to the head.
 
-- The slow pointer moves one step at a time, and the fast pointer moves two steps at a time.
+ - The slow pointer moves one step at a time, and the fast pointer moves two steps at a time.
 
-- If the fast pointer catches up with the slow pointer, a cycle is detected.
+ - If the fast pointer catches up with the slow pointer, a cycle is detected.
 
-- If the fast pointer reaches `nil`, the list does not contain a cycle.
+ - If the fast pointer reaches `nil`, the list does not contain a cycle.
 
 ## 🎯 Example Output
 ```sh
