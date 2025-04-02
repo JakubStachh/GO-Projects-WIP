@@ -3,6 +3,7 @@
 This Go program calculates the factorial of a given number using a recursive function. The factorial of a number n (denoted as n!) is the product of all positive integers from 1 to n. It is defined as:
 ##
 $$
+
 \large n!=n×(n−1)×(n−2)×...×1
 $$
 ##
