@@ -26,7 +26,7 @@ In this example:
 - `hasUniqueCharacters("aabbcc")` returns `false` because there are repeating characters.
 
 ## 📂 Code Explanation
-### `hasUniqueCharacters` Function:
+- `hasUniqueCharacters` Function:
 
   - The function iterates over each character of the input string.
 
@@ -34,6 +34,6 @@ In this example:
 
   - If a character is encountered twice, the function returns `false`. If no duplicates are found, it returns `true`.
 
-### `main` Function:
+- `main` Function:
 
   - The `main` function tests the `hasUniqueCharacters` function with two examples ("abcde" and "aabbcc") and prints the results.
