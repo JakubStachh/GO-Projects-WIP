@@ -14,7 +14,7 @@ The Fibonacci sequence is defined as:
 
 - `F(n) = F(n-1) + F(n-2) for n >= 2`
 
-####In this program, we use a dynamic programming approach:
+#### In this program, we use a dynamic programming approach:
 
 1. We create an array `fib` where `fib[i]` will store the `i`-th Fibonacci number.
 
