@@ -1,6 +1,6 @@
 # 📌 Prime Numbers Finder in Go (Trial Division)
 
-##🚀 Description
+## 🚀 Description
 This Go program finds all prime numbers up to a given number `n` using the trial division method. The program consists of two key functions:
 
 1. `isPrime`: Checks if a given number is prime by attempting to divide it by all numbers from `2` to the square root of the number.
