@@ -30,10 +30,10 @@ false
 ```
 
 ## 🛠️ Implementation Details
-**Two-pointer technique**:
+###**Two-pointer technique**:
 
-Compares characters from the start and end simultaneously.
+- Compares characters from the start and end simultaneously.
 
-Early exit optimization:
+### **Early exit optimization**:
 
-If a mismatch is found, it exits immediately.
+- If a mismatch is found, it exits immediately.
