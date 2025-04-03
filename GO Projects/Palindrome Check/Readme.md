@@ -30,7 +30,7 @@ false
 ```
 
 ## 🛠️ Implementation Details
-###**Two-pointer technique**:
+### **Two-pointer technique**:
 
 - Compares characters from the start and end simultaneously.
 
