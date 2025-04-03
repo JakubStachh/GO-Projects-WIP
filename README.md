@@ -26,6 +26,7 @@
 - ✅ [Merge Two Sorted Arrays](https://github.com/JakubStachh/GO-Projects/tree/main/GO%20Projects/Merge%20Two%20Sorted%20Arrays)
 - ✅ [Palindrome Check](https://github.com/JakubStachh/GO-Projects/tree/main/GO%20Projects/Palindrome%20Check)
 - ✅ [Reverse a String](https://github.com/JakubStachh/GO-Projects/tree/main/GO%20Projects/Reverse%20a%20String)
+- ✅ [Sort an Array Using QuickSort](https://github.com/JakubStachh/GO-Projects/tree/main/GO%20Projects/Sort%20an%20Array%20Using%20QuickSort)
 
   [GET ME BACK](#-table-of-contents)
 <br><br>
