@@ -52,16 +52,10 @@
 - Unpack the zip file
 - Find the `GO-Projects-main\GO Projects\`
 - Open the folder of the program You want to try out `GO-Projects-main\GO Projects\Anagram Check`
-- run:
-  
-  ```sh
-  rustc "AnagramCheck.rs"
-  ```
-  
 - and then run:
   
   ```sh
-  .\AnagramCheck.exe
+  go run AnagramCheck.go
   ```
 #### Should work in `Visual Studio Code` if yours *had been already set up for Rust*
   
