@@ -34,10 +34,10 @@ The final result is `[1, 2, 3, 4, 5, 6, 7, 8]`.
 ## 🛠️ Implementation Details
 - **Two-pointer technique**:
 
- - One pointer (`i`) for `arr1`, another (`j`) for `arr2`.
+   - One pointer (`i`) for `arr1`, another (`j`) for `arr2`.
 
- - The smaller value at each step is added to `result`.
+   - The smaller value at each step is added to `result`.
 
 - **Handling leftovers**:
 
-- If one array is fully traversed, the remaining elements of the other array are added.
+  - If one array is fully traversed, the remaining elements of the other array are added.
