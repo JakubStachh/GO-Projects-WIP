@@ -1,26 +1,11 @@
 # 📌 Recursive Fibonacci in Go
 ## 🚀 Description
 This Go program computes the n-th Fibonacci number using a recursive approach. The Fibonacci sequence is defined as:
-
-𝐹
-(
-𝑛
-)
-=
-𝐹
-(
-𝑛
-−
-1
-)
-+
-𝐹
-(
-𝑛
-−
-2
-)
-F(n)=F(n−1)+F(n−2)
+##
+$$
+\large F(n)=F(n−1)+F(n−2)
+$$
+##
 with the base cases:
 
 𝐹
