@@ -14,20 +14,18 @@ $$
 ##
 <br></br>
 ## 🔍 How It Works
-The function fibonacci(n int) int:
+### The function `fibonacci(n int) int`:
 
-Recursive Approach: Calls itself with n-1 and n-2 until it reaches the base case.
+- **Recursive Approach**: Calls itself with `n-1` and `n-2` until it reaches the base case.
 
-Base Cases: If n is 0 or 1, it returns n directly.
+- **Base Cases*: If `n` is `0` or `1`, it returns `n` directly.
 
-Exponential Complexity: Since it recalculates values multiple times, the time complexity is O(2ⁿ).
+- **Exponential Complexity**: Since it recalculates values multiple times, the time complexity is **O(2ⁿ)**.
 
-The main function demonstrates how to compute the Fibonacci number for n = 5 using recursion.
+The `main` function demonstrates how to compute the Fibonacci number for `n = 5` using recursion.
 
-📜 Code Implementation
-go
-Kopiuj
-Edytuj
+## 📜 Code Implementation
+```sh
 package main
 
 import "fmt"
@@ -43,18 +41,19 @@ func fibonacci(n int) int {
 func main() {
     fmt.Println("Fibonacci of 5:", fibonacci(5)) // Output: 5
 }
-🎯 Example Output
-sh
-Kopiuj
-Edytuj
+```
+
+## 🎯 Example Output
+```sh
 Fibonacci of 5: 5
-📂 Explanation
-fibonacci(n int) int Function:
-If n is 0 or 1, it returns n.
+```
+## 📂 Explanation
+### `fibonacci(n int) int` Function:
+- If `n` is `0` or `1`, it returns `n`.
 
-Otherwise, it calls itself for n-1 and n-2 and sums the results.
+- Otherwise, it calls itself for `n-1` and `n-2` and sums the results.
 
-main Function:
-Calls fibonacci(5), which recursively computes the 5th Fibonacci number.
+### `main` Function:
+- Calls `fibonacci(5)`, which recursively computes the 5th Fibonacci number.
 
-Prints the result.
+- Prints the result.
