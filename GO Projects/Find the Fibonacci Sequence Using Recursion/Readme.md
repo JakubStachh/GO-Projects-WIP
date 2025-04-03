@@ -12,13 +12,12 @@ $$
 \large F(0)=0,F(1)=1
 $$
 ##
-<br></br>
 ## 🔍 How It Works
 ### The function `fibonacci(n int) int`:
 
 - **Recursive Approach**: Calls itself with `n-1` and `n-2` until it reaches the base case.
 
-- **Base Cases*: If `n` is `0` or `1`, it returns `n` directly.
+- **Base Cases**: If `n` is `0` or `1`, it returns `n` directly.
 
 - **Exponential Complexity**: Since it recalculates values multiple times, the time complexity is **O(2ⁿ)**.
 
