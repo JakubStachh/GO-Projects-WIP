@@ -11,11 +11,12 @@ func quickSort(arr []int) []int {
     pivot := arr[0]
     left, right := 0, len(arr)-1
 
+    // Partitioning step
     for left < right {
-        for arr[left] <= pivot && left < len(arr) {
+        for left < len(arr) && arr[left] <= pivot {
             left++
         }
-        for arr[right] > pivot && right > 0 {
+        for right >= 0 && arr[right] > pivot {
             right--
         }
         if left < right {
@@ -23,9 +24,12 @@ func quickSort(arr []int) []int {
         }
     }
 
-    arr[0], arr[right] = arr[right], arr[0]
-    quickSort(arr[:right])
-    quickSort(arr[right+1:])
+    arr[0], arr[right] = arr[right], arr[0] // Place pivot in the correct position
+
+    // Recursively sort the subarrays
+    quickSort(arr[:right])   // Sort left subarray
+    quickSort(arr[right+1:]) // Sort right subarray
+
     return arr
 }
 
