@@ -30,7 +30,7 @@ Merged intervals: [[1 6] [8 10] [15 18]]
 ## 🛠️ Implementation Details
 ### - **Sorting**: Intervals are sorted based on their start time using `sort.Slice()`.
 
-### **Merging**:
+### - **Merging**:
 
 - If an interval overlaps with the previous one, they are combined.
 
