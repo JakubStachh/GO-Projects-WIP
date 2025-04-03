@@ -3,7 +3,7 @@
 ## 🚀 Description
 This Go program merges overlapping intervals from a given list of interval pairs. It ensures that overlapping intervals are combined into a single interval.
 
-##🔍 How It Works
+## 🔍 How It Works
 ### The `mergeIntervals()` function:
 
 - Sorts the intervals based on their start times.
