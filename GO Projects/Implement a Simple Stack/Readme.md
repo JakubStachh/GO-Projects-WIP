@@ -70,6 +70,6 @@ Popped element: 30
 Top element after pop: 20  
 ```
 ## 📂 Key Features
-✅ Dynamic size (Uses slice internally)
-✅ Basic stack operations (`Push`, `Pop`, `Peek`)
-✅ Handles empty stack cases
+- Dynamic size (Uses slice internally)
+- Basic stack operations (`Push`, `Pop`, `Peek`)
+- Handles empty stack cases
