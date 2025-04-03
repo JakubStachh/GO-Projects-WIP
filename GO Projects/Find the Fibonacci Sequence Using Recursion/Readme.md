@@ -7,22 +7,13 @@ $$
 $$
 ##
 with the base cases:
-
-𝐹
-(
-0
-)
-=
-0
-,
-𝐹
-(
-1
-)
-=
-1
+##
+$$
 F(0)=0,F(1)=1
-🔍 How It Works
+$$
+##
+<br></br>
+## 🔍 How It Works
 The function fibonacci(n int) int:
 
 Recursive Approach: Calls itself with n-1 and n-2 until it reaches the base case.
