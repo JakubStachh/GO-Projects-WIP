@@ -12,13 +12,13 @@ The function `kthLargest(arr []int, k int) int`:
 
 - **Heap Operations**:
 
-   1. Push the first `k` elements into the heap.
+ 1. Push the first `k` elements into the heap.
 
-   2. Iterate over the remaining elements:
+ 2. Iterate over the remaining elements:
 
     - If an element is larger than the heap root, replace it.
 
-   3. The root of the heap now holds the **k-th largest element**.
+ 3. The root of the heap now holds the **k-th largest element**.
 
 ## 📜 Code Implementation
 ```sh
