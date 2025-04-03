@@ -38,19 +38,19 @@
 
 ### 𓀃 The Actual Installation🤌🤌
 
-#### You can use [Programiz Complier](https://www.programiz.com/rust/online-compiler/) or similar online compliers to run the code
+#### You can use [Programiz Complier](https://www.programiz.com/golang/online-compiler/) or similar online compliers to run the code
 
 #### But if you're using e.g. Windows Powershell you should:
 
-- Make sure you have Rust installed. You can install it using [Rustup](https://rustup.rs/):
+- Make sure you have GO installed. You can install it using [GO](https://go.dev/doc/install):
 
   ```sh
-  rustc --version
+  go version
   ```
   
-- [Download](https://github.com/JakubStachh/Rust-Projects/archive/refs/heads/main.zip) the code
+- [Download](https://github.com/JakubStachh/GO-Projects/archive/refs/heads/main.zip) the code
 - Unpack the zip file
-- Find the `Rust-Projects-main\Rust Projects`
+- Find the `GO-Projects/GO Projects/`
 - Open the folder of the program You want to try out `Rust-Projects-main\Rust Projects\Anagram Check`
 - run:
   
