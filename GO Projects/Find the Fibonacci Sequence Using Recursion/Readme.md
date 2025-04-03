@@ -9,7 +9,7 @@ $$
 with the base cases:
 ##
 $$
-F(0)=0,F(1)=1
+\large F(0)=0,F(1)=1
 $$
 ##
 <br></br>
