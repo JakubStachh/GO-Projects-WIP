@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+    "fmt"
+    "sort"
+)
 
 // Function to merge overlapping intervals
 func mergeIntervals(intervals [][]int) [][]int {
