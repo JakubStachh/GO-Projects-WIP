@@ -30,10 +30,10 @@ fmt.Println("Reversed String:", reverseString(str))
 Reversed String: !oG ,olleH
 ```
 ## 🛠️ Implementation Details
-Two-pointer technique:
+### Two-pointer technique:
 
-Swaps characters from both ends, reducing operations.
+- Swaps characters from both ends, reducing operations.
 
-Rune slice conversion:
+### Rune slice conversion:
 
-Ensures support for UTF-8 characters (e.g., emojis, non-ASCII text).
+- Ensures support for **UTF-8** characters (e.g., emojis, non-ASCII text).
