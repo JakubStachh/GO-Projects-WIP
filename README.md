@@ -4,9 +4,9 @@
 - [Programs](#-programs)
 - [Installation](#-la-installation)
 - [Many Thanks](#thank-you)
-<br><br>
-# 
-<br><br>
+
+---
+
 # 🛠 Programs
 - ✅ [Anagram Check](https://github.com/JakubStachh/GO-Projects/tree/main/GO%20Projects/Anagram%20Check)
 - ✅ [Breadth-First Search (BFS) in a Graph](https://github.com/JakubStachh/GO-Projects/tree/main/GO%20Projects/Breadth-First%20Search%20(BFS)%20in%20a%20Graph)
@@ -29,10 +29,8 @@
 - ✅ [Sort an Array Using QuickSort](https://github.com/JakubStachh/GO-Projects/tree/main/GO%20Projects/Sort%20an%20Array%20Using%20QuickSort)
 
   [GET ME BACK](#-table-of-contents)
-<br><br>
-#
-  <br><br>
 
+---
   
 # 📦 La Installation
 
@@ -59,16 +57,8 @@
   ```
   
   [GET ME BACK](#-table-of-contents)
-  #
-  <br><br>
-  <br><br>
-  <br><br>
-  <br><br>
-  <br>....<br>
-  <br><br>
-  <br><br>
-  <br><br>
-  <br><br>
+
+---
   
 # THANK YOU!
 ```sh
