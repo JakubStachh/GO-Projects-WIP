@@ -57,7 +57,6 @@
   ```sh
   go run AnagramCheck.go
   ```
-#### Should work in `Visual Studio Code` if yours *had been already set up for Golang*
   
   [GET ME BACK](#-table-of-contents)
   #
